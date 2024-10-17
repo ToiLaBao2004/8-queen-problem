@@ -65,7 +65,7 @@ class NQueensGUI:
         self.window.title("8-Queens Solver")  # Đặt tiêu đề cửa sổ
 
         # Thêm hình ảnh con hậu
-        self.queen_image = Image.open("queen.png")  # Đường dẫn đến ảnh quân hậu
+        self.queen_image = Image.open("queen.png")  # Ảnh quân hậu
         self.queen_image = self.queen_image.resize((400 // n, 400 // n))  # Điều chỉnh kích thước hình ảnh cho phù hợp với ô bàn cờ
         self.queen_photo = ImageTk.PhotoImage(self.queen_image)  # Chuyển đổi ảnh để hiển thị trong Tkinter
 
